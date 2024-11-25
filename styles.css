@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+button:hover {
+    background-color: #555;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.player-box, .questioner-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.player-box img, .questioner-box img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.question-box {
+    flex: 1;
+    width: 600px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#start-screen, #name-screen, #congratulations-screen, #intro-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#start-screen h1, #name-screen h2, #congratulations-screen h1, #intro-screen h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#start-screen p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#startButton, #confirmNameButton, #continueButton, #restartGameButton {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover, #confirmNameButton:hover, #continueButton:hover, #restartGameButton:hover {
+    background-color: #45a049;
+}
+
+#playerNameInput {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+#emoji-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.emoji {
+    position: absolute;
+    font-size: 2rem;
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+}

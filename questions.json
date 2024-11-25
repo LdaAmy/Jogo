@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Qual é o gênero musical originário da Bahia?",
+        "answers": ["Forró", "Samba", "Axé", "Sertanejo"],
+        "correct": 2,
+        "prize": 1000
+    },
+    {
+        "question": "Quem escreveu 'Dom Casmurro'?",
+        "answers": ["Amado", "Assis", "Lispector", "Rosa"],
+        "correct": 1,
+        "prize": 2000
+    },
+    {
+        "question": "Qual é a dança típica do carnaval carioca?",
+        "answers": ["Frevo", "Samba", "Baião", "Xote"],
+        "correct": 1,
+        "prize": 3000
+    },
+    {
+        "question": "Qual a festa que celebra a cultura indígena em Parintins?",
+        "answers": ["Iemanjá", "Parintins", "Folia", "Divino"],
+        "correct": 1,
+        "prize": 4000
+    },
+    {
+        "question": "Qual bebida é feita de cana-de-açúcar?",
+        "answers": ["Vinho", "Cachaça", "Pinga", "Rum"],
+        "correct": 1,
+        "prize": 5000
+    },
+    {
+        "question": "Qual prato típico leva feijão preto?",
+        "answers": ["Moqueca", "Feijoada", "Vatapá", "Arroz"],
+        "correct": 1,
+        "prize": 10000
+    },
+    {
+        "question": "Quem é o artista dos mosaicos?",
+        "answers": ["Tarsila", "Niemeyer", "Britto", "Oiticica"],
+        "correct": 2,
+        "prize": 15000
+    },
+    {
+        "question": "Qual dança mistura elementos africanos e indígenas?",
+        "answers": ["Salsa", "Capoeira", "Tango", "Flamenco"],
+        "correct": 1,
+        "prize": 20000
+    },
+    {
+        "question": "Qual cidade é famosa pelo Cristo Redentor?",
+        "answers": ["Salvador", "Recife", "Rio", "São Paulo"],
+        "correct": 2,
+        "prize": 30000
+    },
+    {
+        "question": "Quem compôs 'Garota de Ipanema'?",
+        "answers": ["Jobim", "Gil", "Caetano", "Elis"],
+        "correct": 0,
+        "prize": 40000
+    },
+    {
+        "question": "Qual região é conhecida pela Floresta Amazônica?",
+        "answers": ["Sul", "Centro-Oeste", "Nordeste", "Norte"],
+        "correct": 3,
+        "prize": 50000
+    },
+    {
+        "question": "O que acontece em Aparecida do Norte?",
+        "answers": ["São João", "Iemanjá", "Romaria", "Carnaval"],
+        "correct": 2,
+        "prize": 75000
+    },
+    {
+        "question": "Qual é o famoso prato nordestino com carne e feijão?",
+        "answers": ["Moqueca", "Feijoada", "Baião", "Xinxin"],
+        "correct": 2,
+        "prize": 100000
+    },
+    {
+        "question": "Qual instrumento é típico do samba?",
+        "answers": ["Violão", "Berimbau", "Cuíca", "Sanfona"],
+        "correct": 2,
+        "prize": 150000
+    },
+    {
+        "question": "Quem foi o autor de 'O Guarani'?",
+        "answers": ["Alencar", "Amado", "Assis", "Rosa"],
+        "correct": 0,
+        "prize": 200000
+    },
+    {
+        "question": "Qual é o esporte mais popular no Brasil?",
+        "answers": ["Vôlei", "Futebol", "Basquete", "Natação"],
+        "correct": 1,
+        "prize": 300000
+    },
+    {
+        "question": "Qual a famosa culinária do Pará?",
+        "answers": ["Moqueca", "Tacacá", "Feijoada", "Arroz de carreteiro"],
+        "correct": 1,
+        "prize": 400000
+    },
+    {
+        "question": "O que caracteriza o carnaval de Salvador?",
+        "answers": ["Desfiles", "Trios elétricos", "Blocos de rua", "Fantasias"],
+        "correct": 1,
+        "prize": 500000
+    },
+    {
+        "question": "Qual o estilo de música popular na região sul?",
+        "answers": ["Samba", "Sertanejo", "Chamamé", "Forró"],
+        "correct": 1,
+        "prize": 750000
+    },
+    {
+        "question": "Qual é a famosa festa junina?",
+        "answers": ["Carnaval", "São João", "Oktoberfest", "Réveillon"],
+        "correct": 1,
+        "prize": 1000000
+    }
+]
